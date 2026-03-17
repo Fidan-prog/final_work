@@ -20,9 +20,23 @@ body {
 }
 
 header {
-    background: #35424a;
-    color: white;
-    padding: 16px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #35424a;
+  color: white;
+  padding: 10px 20px; /* Отступы вокруг содержимого */
+  width: 100%;
+}
+
+.logo {
+  height: 50px; 
+  width: auto; /* Сохранение пропорций */
+  border-radius: 50%;
+}
+
+nav {
+    margin: 0 auto;
 }
 
 nav ul {
