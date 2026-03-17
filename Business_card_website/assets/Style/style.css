@@ -59,6 +59,11 @@ nav a:hover {
     color: #a6b6ff;
 }
 
+.logo {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
 
 /* Footer */
 footer {
